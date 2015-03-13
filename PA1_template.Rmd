@@ -1,7 +1,7 @@
 ---
 title: "PeerAssessment1"
 author: "Alljoy_j"
-date: "Sunday, December 14, 2014"
+date: "March 14, 2014"
 output: html_document
 ---
 
@@ -9,7 +9,8 @@ output: html_document
 This assignment makes use of data from a personal activity monitoring device. This device collects data at 5 minute intervals through out the day. The data consists of two months of data from an anonymous individual collected during the months of October and November, 2012 and include the number of steps taken in 5 minute intervals each day.  Running this document will load the data into your default working directory.
 
 ##Loading and preprocessing the data
-The following code is run to read in the data 
+The following code is run to read in the data.  Note that the working directory is set to where the data file is stored and needs to be changed if the file is stored in a different directory (code to set directory commented out for this file).
+
 ```{r,echo=TRUE, warning = FALSE}
 library(plyr)
 #setwd("C:/Data/Coursera/5 ReproducibleResearch/Week2/")
